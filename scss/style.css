@@ -1,0 +1,348 @@
+.navbar-collapse {
+    flex-grow: inherit !important;
+}
+.logo{
+    width: 125px;
+}
+nav{
+    z-index: 50;
+}
+.scroll {
+    background-color: #fff;
+}
+.nav-link a{
+    color: var(--bs-main) ;
+    padding-right: 20px;
+}
+.nav-link:hover{
+    color: var(--bs-red) 
+}
+.activelink{
+    color: var(--bs-red) ;
+}
+
+:root {
+    --bs-main : #1D344C;
+    --bs-baby : #49C2D3;
+    --bs-red : #E9324B
+}
+.talk , .talk:hover {
+    color: #fff;
+    background-color: var(--bs-main);
+    display: inline;
+}
+.nav-item{
+        border-bottom: 1px solid rgb(204, 204, 204);
+}
+.lets{
+    display: inline;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-collapse{
+    background-color: #fff;
+}
+aside img{
+    width: 100%;
+    position: inherit;
+    top: 120px;
+}
+.header div{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header div button{
+    background-color: var(--bs-baby);
+    color: #fff;
+}
+.header div button:hover {
+        background-color: #30a1af;
+        color: #fff;
+}
+aside{
+    width: 100%;
+    background-color: var(--bs-baby);
+    height: 100vh;
+}
+#services h2{
+    color: var(--bs-main);
+}
+#services div img{
+    width: 100%;
+}
+.service{
+    width: 100%;
+}
+.service h3{
+    color: var(--bs-main);
+}
+.service span{
+    color: gray;
+}
+.col div{
+    height: 230px;
+}
+.learn {
+    color: var(--bs-red);
+    text-decoration: none;
+}
+.learn:hover { 
+    color: var(--bs-baby) !important;
+}
+.seo {
+    width: 100%;
+}
+.design img{
+    width: 100%;
+}
+#clients h2{
+    color: var(--bs-main);
+}
+
+.active{
+    color: var(--bs-baby);
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: var(--bs-main);
+    margin-right: 15px;
+    font-weight: 500;
+}
+#portfolio li a:hover {
+    color: var(--bs-main);
+}
+#portfolio h2 {
+    color: var(--bs-main);
+}
+#portfolio h4{
+    font-weight: bold;
+    color: #fff;
+}
+#portfolio div div{
+    width: 100%;
+}
+.absolute{
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    width: 50%;
+}
+#portfolio img{
+    width: 300px;
+    height: 200px;
+}
+.portfolio{
+    cursor: pointer;
+}
+.portfolio span{
+    color: #fff;
+}
+.portfolio{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/port.png") no-repeat center center/cover;
+        height: 200px;
+        margin-bottom: 20px;
+}
+.butt{
+    border: 1px solid var(--bs-red);
+    color: var(--bs-red);
+}
+.butt:hover{
+    background-color: var(--bs-red);
+    color: #fff;
+}
+.slider {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.slick-slide img {
+    display: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+        margin: 0px 20px;
+}
+.slick-active {
+    opacity: .5;
+}
+.slick-current {
+    opacity: 1;
+}
+#blog h2 {
+    color: var(--bs-main);
+}
+
+.slide {
+    background-color: rgb(217, 217, 217);
+    width: 70%;
+    padding: 0 20px;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide .imgg1 {
+    width: 50px;
+    position: inherit;
+    top: -39px;
+    right: 5px;
+}
+.text span{
+    color: var(--bs-baby);
+}
+.text a{
+    color: gray !important;
+    display: block;
+}
+.text {
+    position: inherit;
+    left: 370px;
+}
+
+.slide .imgg2 {
+    width: 50px;
+    position: relative;
+    right: 60px;
+    bottom: -39px;
+}
+.slick-prev:before,
+.slick-next:before{
+    color: #fff;
+    background-color: var(--bs-baby);
+    padding: 2px;
+    border-radius: 2px;
+    top: 165px;
+    position: absolute;
+}
+.slick-dots{
+    bottom: -65px !important;
+}
+.slick-next {
+    top: 115px;
+    right: 50px;
+    z-index: 4;
+}
+.slick-prev {
+    top: 115px;
+    left: 25px;
+    z-index: 4;
+}
+.slick-dots li button{
+    background-color: gray;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.slick-active button{
+    background-color: var(--bs-baby) !important;
+}
+#rates{
+    background-color: var(--bs-main);
+    margin-top: 100px;
+    height: 500px;
+    padding-top: 5px;
+}
+#rates div img{
+    margin-right: 20px;
+}
+#rates div div h2 {
+    color: var(--bs-baby);
+}
+#rates div div p {
+    color: #fff;
+}
+@media (min-width: 768px) {
+    aside img {
+            top: 25px;
+        }
+    .logo {
+    width: 220px;
+    }
+    #rates {
+        background-color: var(--bs-main);
+        margin-top: 100px;
+        height: 200px;
+        padding-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .nav-item {
+            border-bottom: none
+        }
+    .lets {
+            margin-top: 10px;
+            padding-bottom: 0;
+        }
+    .navbar-collapse {
+        background-color: transparent;
+    }
+    aside {
+        width: 45%;
+    }
+    aside img {
+        width: 300px;
+        left: -47px;
+            top: 120px;
+    }
+    .header div{
+        width: 45%;
+    }
+    #services div img {
+        width: 50%;
+    }
+    .service {
+        width: 49%;
+    }
+    .seo {
+        width: 45%;
+    }
+    .design img {
+        width: 45%;
+    }
+    #portfolio div div {
+        width: 100%;
+    }
+    .absolute {
+        left: 0;
+        bottom: 30px;
+        position: absolute;
+        width: 50%;
+    }
+    .slider {
+    width: 70%;
+    }
+    .slick-slide {
+        margin: 0px 20px;
+    }
+  
+    .slide img {
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        display: inline;
+    }
+        .slick-next {
+            top: 115px;
+            right: 430px;
+        }
+    
+        .slick-prev {
+            top: 115px;
+            left: 400px;
+        }
+}
